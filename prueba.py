@@ -1,6 +1,6 @@
 import ollama
 
-prompt = "hi, how are you and what are you?"
+prompt = "Why is the sky blue?"
 model = "llama3.2:1b"
 
 # response = ollama.chat(model=model,
@@ -10,13 +10,11 @@ model = "llama3.2:1b"
 
 # print(response["message"]["content"])
 
-import ollama
-
 stream = ollama.chat(
     model=model,
-    messages=[{'role': 'user', 'content': 'Why is the sky blue?'}],
+    messages=[{'role': 'user', 'content': prompt}],
     stream=True,
 )
 
 for chunk in stream:
-  print(chunk['message']['content'], end='', flush=True)
+ print(chunk['message']['content'], end='', flush=True)
