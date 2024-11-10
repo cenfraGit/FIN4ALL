@@ -26,6 +26,8 @@ class FrameChatAssistant(wx.Frame):
 
         self.chatBotReply("How can I help you?")
 
+        self.userInputTextCtrl.SetFocus()
+
 
     def init_ui(self):
         

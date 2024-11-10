@@ -42,7 +42,7 @@ class CustomStaticBox(wx.Panel, CustomObject):
         #self.__Panel = wx.Panel(parent=self)
         self.__Panel = CustomPanel(self)
         self.__Panel.SetBackgroundColour(self.GetParent().GetBackgroundColour())
-        self.__Panel.SetBackgroundColour(wx.YELLOW) # debug
+        #self.__Panel.SetBackgroundColour(wx.YELLOW) # debug
 
         # create a sizer to ourselves and then add the panel with the correct paddings
         self.__Sizer = wx.BoxSizer(wx.VERTICAL)
@@ -57,6 +57,10 @@ class CustomStaticBox(wx.Panel, CustomObject):
         
         self.Bind(wx.EVT_PAINT, self.__OnPaint)
         self.Bind(wx.EVT_SIZE, self.__OnSize)
+
+
+    def GetPanel(self):
+        return self.__Panel
 
 
     def SetBackgroundColour(self, colour:wx.Colour):
@@ -123,7 +127,7 @@ class CustomStaticBox(wx.Panel, CustomObject):
         
         gc.SetPen(wx.TRANSPARENT_PEN)
         gc.SetBrush(wx.Brush(self.GetParent().GetBackgroundColour()))
-        gc.SetBrush(wx.RED_BRUSH)
+        #gc.SetBrush(wx.RED_BRUSH)
         gc.SetFont(wx.Font(self._config.text_font_size_default,
                            wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL,
                            faceName=self._config.text_font_facename_default),

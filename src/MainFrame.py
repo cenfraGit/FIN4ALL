@@ -8,6 +8,9 @@ import os
 from src.custom import CustomConfig
 from src.custom import CustomPanel
 from src.custom.utils.dip import dip
+from src.DialogPreferences import DialogPreferences
+
+from src.DialogYourCourses import DialogYourCourses
 
 
 class MainFrame(wx.Frame):
@@ -28,9 +31,18 @@ class MainFrame(wx.Frame):
 
         # create main panel
         self.P_main = wx.Panel(self)
-        self.P_main.SetBackgroundColour(wx.GREEN)
+        self.P_main.SetBackgroundColour(wx.WHITE)
         self.S_main = wx.BoxSizer(wx.VERTICAL)
         self.P_main.SetSizer(self.S_main)
+
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        imageFile = os.path.join(script_dir, "finance_forward.png")
+        image:wx.Bitmap = wx.Image(imageFile, wx.BITMAP_TYPE_ANY)
+        image = image.Scale(dip(700), dip(500), wx.IMAGE_QUALITY_HIGH)
+        image = image.ConvertToBitmap()
+        staticbitmap = wx.StaticBitmap(self.P_main, bitmap=image)
+
+        self.S_main.Add(staticbitmap, proportion=1, flag=wx.ALIGN_LEFT|wx.ALIGN_TOP)
 
 
     def _init_menubar(self):
@@ -58,6 +70,10 @@ class MainFrame(wx.Frame):
 
         #self.Bind(wx.EVT_MENU, self.on_exit, id=101)
 
+        self.Bind(wx.EVT_MENU, self._on_your_courses, id=201)
+        self.Bind(wx.EVT_MENU, self._on_about, id=301)
+        self.Bind(wx.EVT_MENU, self._on_preferences, id=101)
+
 
     def _get_lang(self):
 
@@ -77,3 +93,20 @@ class MainFrame(wx.Frame):
         with open(language_json_path, 'r', encoding='utf-8') as file:
             self.lang = json.load(file)
 
+
+    def _on_your_courses(self, event):
+
+        dlg = DialogYourCourses(self, lang=self.lang)
+        dlg.ShowModal()
+
+    def _on_about(self, event):
+
+        fr = wx.Frame(self)
+        p = wx.Panel(fr)
+        st = wx.StaticText(p, label="Equipo JulioTec FIN4ALL")
+        fr.Show()
+
+    def _on_preferences(self, event):
+
+        dlg = DialogPreferences(self, self.lang)
+        dlg.ShowModal()

@@ -1,0 +1,66 @@
+{
+    "title": "Intro to Personal Finance Quiz",
+    "subtitle": "Test Your Knowledge",
+    "questions": [
+        {
+            "question": "What is money primarily used for?",
+            "options": [
+                "A medium of exchange",
+                "A form of entertainment",
+                "A type of investment",
+                "A way to measure time"
+            ],
+            "correct_answer": "A medium of exchange"
+        },
+        {
+            "question": "What does #inflation# refer to?",
+            "options": [
+                "A decrease in the value of money",
+                "An increase in the value of money",
+                "A decrease in the general level of prices",
+                "An increase in the general level of prices"
+            ],
+            "correct_answer": "An increase in the general level of prices"
+        },
+        {
+            "question": "Which of the following is a *SMART* goal?",
+            "options": [
+                "Save money",
+                "Save $1,000 in 6 months",
+                "Become rich",
+                "Spend less"
+            ],
+            "correct_answer": "Save $1,000 in 6 months"
+        },
+        {
+            "question": "What is a budget?",
+            "options": [
+                "A plan for spending and saving money",
+                "A type of bank account",
+                "A financial goal",
+                "A form of investment"
+            ],
+            "correct_answer": "A plan for spending and saving money"
+        },
+        {
+            "question": "How much should you aim to save in an emergency fund?",
+            "options": [
+                "1 month of living expenses",
+                "3-6 months of living expenses",
+                "1 year of living expenses",
+                "No specific amount"
+            ],
+            "correct_answer": "3-6 months of living expenses"
+        },
+        {
+            "question": "Why is it important to set financial goals?",
+            "type": "open",
+            "answer": "Setting financial goals helps you plan and prioritize your spending and saving, ensuring you can achieve both short-term and long-term financial objectives."
+        },
+        {
+            "question": "Describe a good financial habit and explain why it is beneficial.",
+            "type": "open",
+            "answer": "A good financial habit could be tracking your spending. This is beneficial because it helps you understand where your money is going and identify areas where you can cut back and save more."
+        }
+    ]
+}

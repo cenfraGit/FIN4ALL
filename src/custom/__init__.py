@@ -12,3 +12,4 @@ from .CustomCheckBox import CustomCheckBox
 from .CustomRadioButton import CustomRadioButton
 from .CustomScrolledWindow import CustomScrolledWindow
 from .CustomComboBox import CustomComboBox
+from .CustomStaticText import CustomStaticText

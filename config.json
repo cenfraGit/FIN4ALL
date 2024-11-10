@@ -1,3 +1,5 @@
 {
-    "language": "en_US"
+    "language": "en_US",
+    "email": "test@test.com",
+    "password": "password"
 }

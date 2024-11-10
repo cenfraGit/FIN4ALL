@@ -114,6 +114,8 @@ class CustomButton(CustomControl):
             self._Pressed = False
             self.Refresh()
             if self._Hover:
-                wx.PostEvent(self, wx.PyCommandEvent(wx.EVT_BUTTON.typeId, self.GetId()))
+                evt = wx.PyCommandEvent(wx.EVT_BUTTON.typeId, self.GetId())
+                evt.SetEventObject(self)
+                wx.PostEvent(self, evt)
         event.Skip()
 

@@ -1,0 +1,66 @@
+{
+    "title": "Saving and Budgeting Quiz",
+    "subtitle": "Test Your Knowledge",
+    "questions": [
+        {
+            "question": "What is a budget?",
+            "options": [
+                "A plan for spending and saving money",
+                "A type of bank account",
+                "A financial goal",
+                "A form of investment"
+            ],
+            "correct_answer": "A plan for spending and saving money"
+        },
+        {
+            "question": "How much should you aim to save in an emergency fund?",
+            "options": [
+                "1 month of living expenses",
+                "3-6 months of living expenses",
+                "1 year of living expenses",
+                "No specific amount"
+            ],
+            "correct_answer": "3-6 months of living expenses"
+        },
+        {
+            "question": "What is a SMART goal?",
+            "options": [
+                "A goal that is vague and general",
+                "A goal that is specific, measurable, achievable, relevant, and time-bound",
+                "A goal that is easy to achieve",
+                "A goal that is impossible to achieve"
+            ],
+            "correct_answer": "A goal that is specific, measurable, achievable, relevant, and time-bound"
+        },
+        {
+            "question": "Why is it important to track your expenses?",
+            "options": [
+                "To understand where your money is going",
+                "To increase your spending",
+                "To avoid saving money",
+                "To make budgeting more difficult"
+            ],
+            "correct_answer": "To understand where your money is going"
+        },
+        {
+            "question": "What is one benefit of automating your savings?",
+            "options": [
+                "It ensures you save regularly without having to think about it",
+                "It decreases your savings",
+                "It makes saving more complicated",
+                "It reduces your interest earnings"
+            ],
+            "correct_answer": "It ensures you save regularly without having to think about it"
+        },
+        {
+            "question": "Describe a strategy for setting effective savings goals.",
+            "type": "open",
+            "answer": "A strategy for setting effective savings goals is to use the SMART criteria: Specific, Measurable, Achievable, Relevant, and Time-bound. This ensures that your goals are clear and attainable."
+        },
+        {
+            "question": "Explain why having an emergency fund is important.",
+            "type": "open",
+            "answer": "Having an emergency fund is important because it provides a financial safety net for unexpected expenses, such as medical bills or car repairs, helping you avoid debt."
+        }
+    ]
+}

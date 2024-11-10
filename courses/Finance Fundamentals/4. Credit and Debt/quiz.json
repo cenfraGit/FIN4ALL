@@ -1,0 +1,66 @@
+{
+    "title": "Credit and Debt Quiz",
+    "subtitle": "Test Your Knowledge",
+    "questions": [
+        {
+            "question": "What is a credit score?",
+            "options": [
+                "A measure of your income",
+                "A measure of your creditworthiness",
+                "A measure of your savings",
+                "A measure of your spending"
+            ],
+            "correct_answer": "A measure of your creditworthiness"
+        },
+        {
+            "question": "What is one way to improve your credit score?",
+            "options": [
+                "Missing payments",
+                "Maxing out your credit cards",
+                "Paying your bills on time",
+                "Applying for multiple credit cards at once"
+            ],
+            "correct_answer": "Paying your bills on time"
+        },
+        {
+            "question": "What is the difference between secured and unsecured debt?",
+            "options": [
+                "Secured debt is backed by collateral, unsecured debt is not",
+                "Unsecured debt is backed by collateral, secured debt is not",
+                "Both are backed by collateral",
+                "Neither are backed by collateral"
+            ],
+            "correct_answer": "Secured debt is backed by collateral, unsecured debt is not"
+        },
+        {
+            "question": "What is a common debt trap to avoid?",
+            "options": [
+                "High-interest payday loans",
+                "Low-interest savings accounts",
+                "Government bonds",
+                "Employer-sponsored retirement plans"
+            ],
+            "correct_answer": "High-interest payday loans"
+        },
+        {
+            "question": "Why is it important to keep your credit utilization low?",
+            "options": [
+                "It shows you are using a lot of credit",
+                "It can negatively impact your credit score",
+                "It increases your debt",
+                "It has no effect on your credit score"
+            ],
+            "correct_answer": "It can negatively impact your credit score"
+        },
+        {
+            "question": "Describe a strategy for managing and reducing debt.",
+            "type": "open",
+            "answer": "One strategy for managing and reducing debt is the debt snowball method, where you focus on paying off your smallest debts first while making minimum payments on larger debts. This helps build momentum and motivation."
+        },
+        {
+            "question": "Explain the importance of understanding your credit score.",
+            "type": "open",
+            "answer": "Understanding your credit score is important because it affects your ability to get loans, credit cards, and favorable interest rates. It also impacts your financial opportunities and overall financial health."
+        }
+    ]
+}

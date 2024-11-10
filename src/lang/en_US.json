@@ -1,4 +1,14 @@
 {
+
+    "button_ok": "Ok",
+    "button_cancel": "Cancel",
+    "button_next": "Next",
+    "button_check": "Check",
+    "button_solution": "Solution",
+    "button_assistant": "Assistant",
+    "buttons_quiz": "Go To Quiz...",
+    "buttons_end": "End",
+
     "menubar_file": "File",
     "menubar_file_preferences": "Preferences...",
     "menubar_file_exit": "Exit",
@@ -8,5 +18,26 @@
     "menubar_learn_explore_courses": "Explore courses...",
 
     "menubar_help": "Help",
-    "menubar_help_about": "About..."
+    "menubar_help_about": "About...",
+    "menubar_help_assistant": "Open AI Assistant...",
+
+    "dialog_your_courses_title": "Your Courses...",
+    "dialog_your_courses_staticbox_label": "Courses",
+
+    "dialog_your_courses_lessons_title": "Course lessons",
+    "dialog_your_courses_lessons_staticbox_label": "Lessons",
+
+    "frame_lesson_title": "Lesson",
+    "frame_quiz_title": "Quiz",
+
+    "dialog_preferences_title": "Preferences",
+    "dialog_preferences_auth": "Authentication",
+    "dialog_preferences_email": "Email",
+    "dialog_preferences_password": "Password",
+    "dialog_preferences_language": "Language",
+    "dialog_preferences_translation": "Automatic course translation by AI"
+    
+
+
+
 }

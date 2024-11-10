@@ -1,0 +1,66 @@
+{
+    "title": "Banking Basics Quiz",
+    "subtitle": "Test Your Knowledge",
+    "questions": [
+        {
+            "question": "What is a checking account primarily used for?",
+            "options": [
+                "Saving money",
+                "Everyday transactions",
+                "Investing in stocks",
+                "Earning high interest"
+            ],
+            "correct_answer": "Everyday transactions"
+        },
+        {
+            "question": "What is one benefit of online banking?",
+            "options": [
+                "Limited access to your account",
+                "Higher fees",
+                "Convenience and accessibility",
+                "No security features"
+            ],
+            "correct_answer": "Convenience and accessibility"
+        },
+        {
+            "question": "What should you consider when choosing a bank account?",
+            "options": [
+                "Interest rates",
+                "Fees",
+                "Accessibility",
+                "All of the above"
+            ],
+            "correct_answer": "All of the above"
+        },
+        {
+            "question": "What is a common fee associated with bank accounts?",
+            "options": [
+                "Maintenance fee",
+                "Interest fee",
+                "Deposit fee",
+                "Withdrawal fee"
+            ],
+            "correct_answer": "Maintenance fee"
+        },
+        {
+            "question": "How can you avoid overdraft fees?",
+            "options": [
+                "By spending more than your balance",
+                "By keeping track of your account balance",
+                "By not using your account",
+                "By withdrawing cash frequently"
+            ],
+            "correct_answer": "By keeping track of your account balance"
+        },
+        {
+            "question": "Explain the process of opening a bank account.",
+            "type": "open",
+            "answer": "To open a bank account, you typically need to provide identification, proof of address, and an initial deposit. You will also need to fill out an application form and agree to the bank's terms and conditions."
+        },
+        {
+            "question": "Describe the benefits of using mobile banking.",
+            "type": "open",
+            "answer": "Mobile banking offers benefits such as convenience, the ability to check your balance and transactions on the go, transfer funds, pay bills, and enhanced security features."
+        }
+    ]
+}
