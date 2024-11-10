@@ -1,0 +1,12 @@
+{
+    "menubar_file": "File",
+    "menubar_file_preferences": "Preferences...",
+    "menubar_file_exit": "Exit",
+
+    "menubar_learn": "Learn",
+    "menubar_learn_your_courses": "Your courses...",
+    "menubar_learn_explore_courses": "Explore courses...",
+
+    "menubar_help": "Help",
+    "menubar_help_about": "About..."
+}
